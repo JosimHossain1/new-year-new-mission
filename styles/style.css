@@ -29,6 +29,10 @@ section {
     background-color: #F00;
 }
 
+.title {
+    font-size: 64px;
+}
+
 .sub-title {
     font-size: 48px;
     font-style: normal;
@@ -46,6 +50,17 @@ section {
     line-height: 32px;
 }
 
+
+.btn{
+    background: #F00;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+}
 /* Banner CSS */
 
 .banner {
@@ -113,4 +128,42 @@ section {
     width: 800px;
     height: 500px;
     margin-top: 50px;
+}
+
+
+/* party_banner css */
+
+.party_banner {
+    background-image: url('/assets/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.party_banner .overlay {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.822) 59%, rgba(0, 0, 0, 0) 100%);
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.party_banner .wrapper {
+    width: 70%;
+}
+
+.party_banner h1 {
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+}
+
+.party_banner p{
+    color: white;
+    margin: 20px 0;
 }
