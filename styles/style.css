@@ -51,7 +51,7 @@ section {
 }
 
 
-.btn{
+.btn {
     background: #F00;
     color: white;
     border: none;
@@ -61,6 +61,7 @@ section {
     font-weight: 600;
     border-radius: 6px;
 }
+
 /* Banner CSS */
 
 .banner {
@@ -163,7 +164,30 @@ section {
     letter-spacing: 7px;
 }
 
-.party_banner p{
+.party_banner p {
     color: white;
     margin: 20px 0;
+}
+
+/* party_time section css */
+
+.party_time {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.044) 26%, rgba(255, 0, 0, 0.121) 100%);
+    height: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.party_time h3 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 46px;
+}
+
+.party_time button {
+    margin-top: 20px;
 }
