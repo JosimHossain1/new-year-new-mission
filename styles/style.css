@@ -21,6 +21,11 @@ section {
     margin: 80px 0px;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .text-primary {
     color: #F00;
 }
@@ -43,13 +48,16 @@ section {
 
 .text-description {
     color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter',sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
 
+p{
+    font-family: 'Inter',sans-serif;
+}
 
 .btn {
     background: #F00;
@@ -191,3 +199,35 @@ section {
 .party_time button {
     margin-top: 20px;
 }
+
+
+
+
+/* Footer section css */
+
+footer{
+    background: #070211;
+    color: white;
+    padding: 150px 0px 30px 0px;
+}
+
+footer .location p{
+    line-height: 25px;
+}
+footer .add-info{
+    display: flex;
+    justify-content:center;
+    gap: 8px;
+    margin: 10px;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+}
+
+footer .social img{
+    width: 40px;
+    margin-left: 15px;
+}
+
