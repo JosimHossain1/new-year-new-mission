@@ -430,11 +430,11 @@ p {
 .newsletter .email_box button {
     background-color: #F00;
     color: white;
-    width: 19%;
     height: 100%;
     font-size: 18px;
-    padding: 0px 30px;
+    padding: 0px 20px;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -442,6 +442,7 @@ p {
 /* Footer section css */
 
 footer {
+    width: 100%;
     background: #070211;
     color: white;
     padding: 100px 0px 30px 0px;
@@ -462,6 +463,9 @@ footer .social {
     display: flex;
     justify-content: center;
     margin: 70px auto;
+    padding: 30px 0;
+    border-top: 2px solid #1f1e1e;
+    border-bottom: 2px solid #1f1e1e;
 }
 
 footer .social img {
