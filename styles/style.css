@@ -82,7 +82,7 @@ p {
 /* Banner CSS */
 
 .banner {
-    background-image: url('/assets/banner_bg.png');
+    background-image: url('assets/banner_bg.png');
     height: 600px;
     color: white;
     overflow: hidden;
@@ -152,7 +152,7 @@ p {
 /* party_banner css */
 
 .party_banner {
-    background-image: url('/assets/Vectorrr.png');
+    background-image: url('assets/Vectorrr.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ p {
 }
 
 .party_banner .overlay {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.822) 59%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(90deg, #000000d2 59%, #00000000 100%);
     height: 100%;
     padding: 100px;
     display: flex;
@@ -185,7 +185,7 @@ p {
 /* party_time section css */
 
 .party_time {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.044) 26%, rgba(255, 0, 0, 0.121) 100%);
+    background: linear-gradient(0deg, #0000000b 26%, #ff00001f 100%);
     height: 450px;
     text-align: center;
     display: flex;
