@@ -201,6 +201,32 @@ p {
     margin-top: 20px;
 }
 
+.portfolio h6 {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.portfolio p {
+    width: 60%;
+    margin-bottom: 40px;
+}
+
+.portfolio .image_box {
+    margin-top: 20px;
+}
+
+
+
 /* Newsletter section css */
 
 .newsletter {
@@ -217,7 +243,7 @@ p {
     margin: 10px 0;
 }
 
-.newsletter p{
+.newsletter p {
     padding: 0 250px;
     margin: 20px 0;
 }
@@ -227,7 +253,7 @@ p {
     height: 150px;
 }
 
-.newsletter .email_box{
+.newsletter .email_box {
     background-color: white;
     width: 50%;
     height: 50px;
@@ -236,7 +262,7 @@ p {
     overflow: hidden;
 }
 
-.newsletter input{
+.newsletter input {
     height: 100%;
     width: 80%;
     border: none;
@@ -245,7 +271,7 @@ p {
     font-size: 18px;
 }
 
-.newsletter .email_box button{
+.newsletter .email_box button {
     background-color: #F00;
     color: white;
     width: 19%;
@@ -254,6 +280,9 @@ p {
     padding: 0px 30px;
     border: none;
 }
+
+
+
 /* Footer section css */
 
 footer {
