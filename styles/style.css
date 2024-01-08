@@ -82,7 +82,7 @@ p {
 /* Banner CSS */
 
 .banner {
-    background-image: url('assets/banner_bg.png');
+    background-image: url('/assets/banner_bg.png');
     height: 600px;
     color: white;
     overflow: hidden;
@@ -152,7 +152,7 @@ p {
 /* party_banner css */
 
 .party_banner {
-    background-image: url('assets/Vectorrr.png');
+    background-image: url('/assets/Vectorrr.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
