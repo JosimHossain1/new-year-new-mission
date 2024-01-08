@@ -47,9 +47,16 @@ section {
     text-transform: capitalize;
 }
 
+.mini-title {
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .text-description {
     color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -69,6 +76,7 @@ p {
     font-size: 16px;
     font-weight: 600;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 /* Banner CSS */
@@ -162,10 +170,6 @@ p {
     align-items: center;
 }
 
-.party_banner .wrapper {
-    width: 70%;
-}
-
 .party_banner h1 {
     font-family: Merriweather;
     font-weight: 900;
@@ -201,6 +205,53 @@ p {
     margin-top: 20px;
 }
 
+
+
+/* Best Offer Section CSS */
+
+.best_offfer {
+    margin: 150px 0px;
+}
+
+.best_offfer .new_offer {
+    width: 40%;
+}
+
+.best_offfer .middle_image {
+    width: 30%;
+}
+
+.best_offfer .new_year {
+    width: 20%;
+}
+
+.best_offfer h2{
+    margin: 20px 0;
+}
+
+
+.best_offfer .circle_border {
+    width: 350px;
+    height: 350px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.best_offfer .circle_border img {
+    width: 100%;
+}
+
+.best_offfer .new_year h2{
+    font-family: Inter;
+}
+
+.best_offfer .new_year img{
+    margin-top: 30px;
+
+}
+
+
 /* Holidays Section CSS */
 
 .holidays .top_section {
@@ -234,9 +285,9 @@ p {
     font-weight: 500;
     line-height: 32px;
 }
-.gif_box{
+
+.gif_box {
     position: relative;
-    b
     
 }
 
