@@ -21,11 +21,12 @@ section {
     margin: 80px 0px;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .text-primary {
     color: #F00;
 }
@@ -48,15 +49,15 @@ section {
 
 .text-description {
     color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
 }
 
-p{
-    font-family: 'Inter',sans-serif;
+p {
+    font-family: 'Inter', sans-serif;
 }
 
 .btn {
@@ -200,34 +201,85 @@ p{
     margin-top: 20px;
 }
 
+/* Newsletter section css */
 
+.newsletter {
+    border-radius: 10px;
+    background: #ff00000d;
+    text-align: center;
+    padding: 100px 0;
+}
 
+.newsletter h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-weight: 900;
+    margin: 10px 0;
+}
 
+.newsletter p{
+    padding: 0 250px;
+    margin: 20px 0;
+}
+
+.newsletter img {
+    width: 150px;
+    height: 150px;
+}
+
+.newsletter .email_box{
+    background-color: white;
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.newsletter input{
+    height: 100%;
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.newsletter .email_box button{
+    background-color: #F00;
+    color: white;
+    width: 19%;
+    height: 100%;
+    font-size: 18px;
+    padding: 0px 30px;
+    border: none;
+}
 /* Footer section css */
 
-footer{
+footer {
     background: #070211;
     color: white;
     padding: 150px 0px 30px 0px;
 }
 
-footer .location p{
+footer .location p {
     line-height: 25px;
 }
-footer .add-info{
+
+footer .add-info {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     gap: 8px;
     margin: 10px;
 }
-footer .social{
+
+footer .social {
     display: flex;
     justify-content: center;
     margin: 70px auto;
 }
 
-footer .social img{
+footer .social img {
     width: 40px;
     margin-left: 15px;
 }
-
